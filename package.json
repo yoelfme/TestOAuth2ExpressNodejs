@@ -1,0 +1,19 @@
+{
+  "name": "oauth2-server-nodejs",
+  "version": "0.0.1",
+  "description": "A mini OAuth2 Sever with Express on Nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoelfme/TestOAuth2ExpressNodejs.git"
+  },
+  "author": "Yoel Monzon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yoelfme/TestOAuth2ExpressNodejs/issues"
+  },
+  "homepage": "https://github.com/yoelfme/TestOAuth2ExpressNodejs#readme"
+}
