@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/yoelfme/TestOAuth2ExpressNodejs/issues"
   },
-  "homepage": "https://github.com/yoelfme/TestOAuth2ExpressNodejs#readme"
+  "homepage": "https://github.com/yoelfme/TestOAuth2ExpressNodejs#readme",
+  "dependencies": {
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "mongoose": "^4.1.10",
+    "passport-http-bearer": "^1.0.1"
+  }
 }
