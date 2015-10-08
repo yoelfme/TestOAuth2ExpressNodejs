@@ -5,14 +5,15 @@ This is a mini application for create a server of OAuth22 with [Express](http://
 ## Requisites
 
 - Install [Node](https://nodejs.org/en/download/)
-- Install [MongoDB][https://www.mongodb.org/]
+- Install [MongoDB](https://www.mongodb.org/)
 
 ## Setup Environment Development
 
 - Clone the repo.
-- Run `node seed.js` to create a user account
-- Run `node server.js` to start server
-- Use POSTAM or CURL to test the next URL
+- Run `npm install` to install all dependencies.
+- Run `node seed.js` to create a user account.
+- Run `node server.js` to start server.
+- Use POSTAM or CURL to test the next URL.
 
 ```
 POST /oauth/token HTTP/1.1
