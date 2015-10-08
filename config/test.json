@@ -1,0 +1,4 @@
+{
+    "db": "localhost/oauth2db-test",
+    "rootURL": "http://localhost:3001"
+}
