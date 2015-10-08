@@ -13,7 +13,7 @@ mongoose.model('OAuthAccessTokens', OAuthAccessTokensSchema);
 
 var OAuthAccessTokensModel = mongoose.model('OAuthAccessTokens');
 
-model.getAccessToken = functio(bearerToken, callback) {
+model.getAccessToken = function(bearerToken, callback) {
     console.log('in getAccessToken (bearerToken: ' + bearerToken + ')');
 
     OAuthAccessTokensModel.findOne({ accessToken: bearerToken }, callback);

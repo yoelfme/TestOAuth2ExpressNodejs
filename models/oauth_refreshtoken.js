@@ -11,7 +11,7 @@ var OAuthRefreshTokensSchema = new Schema({
 
 mongoose.model('OAuthRefreshTokens', OAuthRefreshTokensSchema);
 
-VAR OAuthRefreshTokensModel = mongoose.model('OAuthRefreshTokens');
+var OAuthRefreshTokensModel = mongoose.model('OAuthRefreshTokens');
 
 /*
  * Required to support refreshToken grant type

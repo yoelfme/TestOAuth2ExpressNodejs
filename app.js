@@ -20,7 +20,7 @@ app.use(bodyParser.json());
 
 // Configure OAuth with MongoDB
 app.oauth = oauthServer({
-    model: models.oaut,
+    model: models.oauth,
     grants: ['password'],
     debug: true
 });

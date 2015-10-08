@@ -10,5 +10,5 @@ mongoose.connect(config.db, function(err, res) {
 });
 
 module.exports.oauth = require('./oauth');
-module.exports.User = require('/.user');
+module.exports.User = require('./user');
 module.exports.mongoose = mongoose;
