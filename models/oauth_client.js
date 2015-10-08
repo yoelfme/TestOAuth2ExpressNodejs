@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 var model = module.exports;
-var authorizedClientIds = ['test-secret', 'test'];
+var authorizedClientIds = ['papers3', 'test'];
 
 var OAuthClientsSchema = new Schema({
   clientId: { type: String },
@@ -32,3 +32,7 @@ model.grantTypeAllowed = function (clientId, grantType, callback) {
 
   callback(false, true);
 };
+
+model.register = function(data, callback) {
+  OAuthClientsModel.create(data, callback);  
+}
