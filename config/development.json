@@ -1,4 +1,4 @@
 {
-    "db": "localhost/oauth2db",
+    "db": "mongodb://localhost/oauth2db",
     "rootURL": "http://localhost:3000"   
 }
