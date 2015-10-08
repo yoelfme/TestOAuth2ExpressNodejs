@@ -1,21 +1,9 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var oauthServer = require('oauth2-server');
-var mongoose = require('mongoose');
 
 var app = express()
 var uristring = 'mongodb://localhost/oauth2db';
-
-// Configure connection to database
-// Makes connection asynchronously. Mongoose will queue up database
-// operations and release them when the connection is complete.
-mongoose.connect(uristring, function (err, res) {
-  if (err) {
-    console.log ('ERROR connecting to: ' + uristring + '. ' + err);
-  } else {
-    console.log ('Succeeded connected to: ' + uristring);
-  }
-});
 
 // Configuration of POST
 app.use(bodyParser.urlencoded({ extended: true}));

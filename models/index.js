@@ -8,3 +8,7 @@ mongoose.connect(config.db, function(err, res) {
         console.log('Succeeded connected to: ' + config.db)
     }
 });
+
+module.exports.oauth = require('./oauth');
+module.exports.User = require('/.user');
+module.exports.mongoose = mongoose;
